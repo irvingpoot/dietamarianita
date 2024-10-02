@@ -244,7 +244,25 @@ function mostrarDia(diaIndex) {
     document.getElementById('colacion2-contenido').innerHTML = `<p class = "lista">${diaSeleccionado.comidas.colacion2}</p>`;
 
     // Cena
-    document.getElementById('cena-contenido').innerHTML = `<p class = "lista">${diaSeleccionado.comidas.cena}</p>`;
+    if (Array.isArray(diaSeleccionado.comidas.ingredientesCena)) {
+        let cenaContenido = `<p class = "tituloPlatillo">${diaSeleccionado.comidas.cena}</p><ul class = "lista" >`;
+        diaSeleccionado.comidas.ingredientesCena.forEach(ingrediente => {
+            cenaContenido += `<li>${ingrediente}</li>`;
+        });
+        cenaContenido += '</ul>';
+        document.getElementById('cena-contenido').innerHTML = cenaContenido;
+    } else {
+        document.getElementById('cena-contenido').innerHTML = `<p class = "lista">${diaSeleccionado.comidas.cena}</p>`;
+    }
+
+    const links = document.querySelectorAll('#menu-dias-ul a');
+    links.forEach((link, index) => {
+        if (index == diaIndex) {
+            link.classList.add('selected');
+        } else {
+            link.classList.remove('selected');
+        }
+    });
 
     const links = document.querySelectorAll('#menu-dias-ul a');
     links.forEach((link, index) => {
