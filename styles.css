@@ -43,7 +43,11 @@ a.selected, select option[selected] {
     font-weight: bold;
 }
 
-
+a:hover {
+    background-color: #FFB6C1; /* Fondo más claro al pasar el mouse */
+    box-shadow: 0px 2px 15px rgba(255, 250, 205, 1); /* Sombra del menú */
+    border-radius: 15px;
+}
 
 main {
     padding: 3rem;
@@ -113,6 +117,7 @@ ul li {
 #menu-dias-select:hover {
     background-color: #B2EEB2; /* Fondo más claro al pasar el mouse */
     box-shadow: 0px 4px 10px rgba(255, 250, 205, 1); /* Sombra del menú */
+    border-radius: 15px;
 }
 
 /* Media query para pantallas pequeñas */

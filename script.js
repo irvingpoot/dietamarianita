@@ -2,199 +2,194 @@ const dieta = [
     {
         dia: 'Lunes',
         comidas: {
-            desayuno: 'Smoothie Fresas con Crema',
+            desayuno: 'Sincronizadas',
             ingredientesDesayuno: [
-                '1 taza de leche de coco o almendras sin azúcar',
-                '1/2 taza de yogurt griego sin azúcar',
-                '1 taza de fresas o frutos rojos',
-                '1 cda. de crema de almendras',
-                'Hielos al gusto',
-                '1 huevo al gusto, 1 tortilla de nopal'
+                '2 tortillas de nopal',
+                '60 gramos de queso fresco o panela',
+                '1 rebanada de jamón de pavo',
+                'Salsa bandera',
+                '1/3 pieza de aguacate',
+                '1 taza de café',
+                'Jugo verde'
             ],
-            colacion1: 'Piña con Jícama',
-            ingredientesColacion1: [
-                '1/2 taza de jícama rallada',
-                '3/4 taza de piña picada'
-            ],
-            comida: 'Pechuga de Pollo al Vapor',
+            colacion1: '1 gelatina sin azúcar',
+            ingredientesColacion1: ['1 gelatina sin azúcar'],
+            comida: 'Pollo con crema y chipotle',
             ingredientesComida: [
-                '120 g de pechuga de pollo',
-                '1/3 taza de arroz integral o blanco',
-                'Verduras opcionales (brócoli, coliflor, calabaza, chayote, soya germinada, zanahoria)'
+                '120 gr de pollo, crema y chipotle al gusto (Preparación al gusto)',
+                '1 taza de verduras al vapor',
+                '1 tostada horneada o 1 tortilla de nopal'
             ],
-            colacion2: '1 toronja en gajos',
-            cena: 'Calabacitas a la Mexicana',
+            colacion2: '1 taza de jícama',
+            cena: 'Guacamole con totopos',
             ingredientesCena: [
-                'Calabacitas, chile, tomate, cebolla, elotito',
-                '1 tostada horneada'
+                '1 pieza de tomate',
+                '1 pieza de aguacate',
+                '2 cucharadas de cebolla',
+                'Sal y pimienta',
+                '1 paquete de salmas'
             ]
         }
     },
     {
         dia: 'Martes',
         comidas: {
-            desayuno: 'Omelet de Espinacas',
+            desayuno: 'Chilaquiles',
             ingredientesDesayuno: [
-                '3 claras de huevo',
-                'Un puñado de espinacas',
-                '1 rebanada de pan integral'
-            ],
-            colacion1: 'Gelatina',
-            ingredientesColacion1: [
-                '1 taza de gelatina sin azúcar'
-            ],
-            comida: 'Taquitos de Asada',
-            ingredientesComida: [
-                '120 g de carne pulpa negra o pulpa bola en trocitos',
-                '1/2 aguacate machacado',
                 '3 tortillas de nopal',
-                'Salsa mexicana, verde o roja',
-                'Ensalada verde (lechuga, tomate, pepino)'
+                '½ pieza de jitomate',
+                '1 pieza de chile serrano',
+                '½ taza de frijol cocido',
+                '1 huevo',
+                'Jugo verde'
             ],
-            colacion2: '1 tz de jícama',
-            cena: 'Chicken Rice',
+            colacion1: '1 taza de jícama',
+            ingredientesColacion1: ['1 taza de jícama'],
+            comida: 'Brochetas de res',
+            ingredientesComida: [
+                '100 gramos de carne de res en cubos',
+                'Verduras (pimientos rojos, verdes, amarillos, cebolla blanca, champiñones)',
+                '2 cucharadas de aceite',
+                '2 cucharadas de salsa de soya',
+                '½ taza de arroz blanco con elote amarillo'
+            ],
+            colacion2: '½ taza de jícama con Tajín bajo en sodio',
+            cena: 'Sopa de fideo con verduras',
             ingredientesCena: [
-                '1/2 taza de arroz integral de preferencia',
-                '50 g de pollo',
-                'Pimiento morrón rojo, chile chipotle'
+                '1 taza de fideo hervido',
+                'Cebolla, tomate (para el caldo)',
+                '½ taza de zanahoria',
+                '½ taza de chícharos',
+                '1 tortilla de nopal'
             ]
         }
     },
     {
         dia: 'Miércoles',
         comidas: {
-            desayuno: 'Sándwich de Pollo',
+            desayuno: 'Sándwich ligero',
             ingredientesDesayuno: [
                 '2 rebanadas de pan integral',
-                '60g de pollo',
-                'Espinaca o lechuga',
-                'Tomate',
-                'Cebolla (opcional)',
-                '1/3 de aguacate'
+                '2 rebanadas de jamón de pavo',
+                '½ pieza de pepino en rebanadas',
+                'Tomate rebanado',
+                'Cebolla, pimiento y cilantro',
+                '1 cucharada de mayonesa',
+                'Jugo verde'
             ],
-            colacion1: 'Piña con Jícama',
-            ingredientesColacion1: [
-                '1/2 taza de jícama rallada',
-                '3/4 taza de piña picada'
-            ],
-            comida: 'Atún Guisado',
+            colacion1: '1 gelatina',
+            ingredientesColacion1: ['1 gelatina'],
+            comida: 'Pescado empapelado',
             ingredientesComida: [
-                '1 y ½ lata de atún',
-                'Chile, tomate, cebolla',
-                '1/2 taza de arroz integral o blanco',
-                'Ensalada verde (lechuga, tomate, pepino)'
+                '120 gramos de filete de pescado',
+                '½ taza de espinacas',
+                '½ taza de pimiento picado',
+                '½ taza de zanahoria picada',
+                '1 pieza de tomate en rodajas',
+                'Condimentos al gusto'
             ],
-            colacion2: '10 almendras',
-            cena: 'Tostadas de aguacate/frijol',
+            colacion2: '1 chocolate Turin (Tu puedes, mi amor &#9829;)',
+            cena: 'Tacos de lechuga con pollo',
             ingredientesCena: [
-                '2 tostadas horneadas untadas con frijol sin guisar',
-                'Salsa bandera',
-                '1/3 pieza de aguacate'
+                '50 gramos de fajitas de pollo',
+                'Hojas de lechuga orejona',
+                'Salsa bandera (1 tomate picado, ½ taza cebolla blanca, chile serrano y cilantro al gusto)',
+                '1/3 pieza de aguacate',
+                '1 cucharada de aderezo'
             ]
         }
     },
     {
         dia: 'Jueves',
         comidas: {
-            desayuno: 'Omelette',
+            desayuno: 'Licuado de blueberries y fresa',
             ingredientesDesayuno: [
-                '1 huevo',
-                'Verduras al gusto, 1 rebanada de jamón',
-                '2 tostadas horneadas',
-                'Licuado: 1 taza de leche de coco, 1/2 plátano'
+                '1 taza de leche light o de soya',
+                '1 taza de fresas',
+                '¼ taza de blueberries',
+                '10 almendras',
+                'Jugo verde'
             ],
-            colacion1: 'Gelatina',
-            ingredientesColacion1: [
-                '1 taza de gelatina sin azúcar'
-            ],
-            comida: 'Pechuga de Pollo Deshebrado',
+            colacion1: '1 taza de jícama y zanahoria rallada',
+            ingredientesColacion1: ['1 taza de jícama y zanahoria rallada'],
+            comida: 'Consomé de pollo',
             ingredientesComida: [
-                '120 g de pechuga de pollo',
-                '2 tostadas horneadas',
-                'Lechuga finamente picada',
-                'Zanahoria rallada',
-                'Pepino',
-                'Cebolla curtida (Opcional)',
-                '1 cucharada de queso Cotija',
-                '1/3 de aguacate'
+                '1 taza de consomé de pollo',
+                '1 taza de verduras al vapor (Las que tu elijas)',
+                '½ taza de arroz blanco con elote amarillo',
+                '90 gramos de pechuga de pollo desmenuzada',
+                '1 tortilla de nopal'
             ],
-            colacion2: '1 toronja en gajos',
-            cena: 'Chilaquiles',
+            colacion2: '½ taza de jícama con Tajín bajo en sodio',
+            cena: 'Sándwich de atún',
             ingredientesCena: [
-                '50gr de totopos',
-                '1/2 de pieza de Jitomate',
-                '1 pieza de chile serrano',
-                '1/2 taza de frijol cocido',
-                '40gr de queso'
+                '2 rebanadas de pan integral',
+                '30 gramos de atún',
+                '1/3 pieza de aguacate',
+                'Lechuga y tomate'
             ]
         }
     },
     {
         dia: 'Viernes',
         comidas: {
-            desayuno: 'Huevo con Jamón',
+            desayuno: 'Huevo con verdura',
             ingredientesDesayuno: [
-                '1 huevo',
-                '2 rebanadas de jamón',
-                'Verdura al gusto',
+                '1 pieza de huevo',
+                '½ taza de verduras al gusto',
+                '1 cucharada de aceite',
+                '1 tortilla de nopal',
+                '1 taza de café',
+                'Jugo verde'
+            ],
+            colacion1: '1 toronja',
+            ingredientesColacion1: ['1 toronja'],
+            comida: 'Cocido',
+            ingredientesComida: [
+                '80 gramos de carne molida',
+                'Papa, zanahoria, repollo, elote, calabaza, ejotes',
                 '1 tortilla de nopal'
             ],
-            colacion1: 'Piña con Jícama',
-            ingredientesColacion1: [
-                '1/2 taza de jícama rallada',
-                '1/2 taza de piña picada'
-            ],
-            comida: 'Camarones Rancheros',
-            ingredientesComida: [
-                '11 camarones',
-                'Chile serrano, cebolla, tomate',
-                '1/2 taza de arroz integral o blanco',
-                'Ensalada verde (lechuga, tomate, pepino)'
-            ],
-            colacion2: '2 tzs de jícama',
-            cena: 'Club Sándwich',
+            colacion2: '1 chocolate Turin (Yo confío en ti &#9829;)',
+            cena: 'Pizza',
             ingredientesCena: [
-                '2 panes integrales',
-                '40gr de pechuga de pollo',
-                '1 cucharada de mayonesa light',
-                'Espinaca, lechuga orejona, germinado, pepino'
+                '1 pieza de pan pita',
+                'Salsa de tomate casera',
+                '30 gr de queso oaxaca',
+                '1 rebanada de jamón o pepperoni'
             ]
         }
     },
     {
         dia: 'Sábado',
         comidas: {
-            desayuno: 'Wafles',
+            desayuno: 'Huevo con jamón',
             ingredientesDesayuno: [
-                '3/4 taza de avena',
-                '1/2 plátano',
                 '1 huevo',
-                '1 cda. de vainilla',
-                'Canela en polvo',
-                '1 cda. de fruto del monje o un sobre de Stevia',
-                '5 fresas o un equivalente de fruta para acompañar'
+                '1 rebanada de jamón',
+                '1 tortilla de nopal',
+                '1 taza de café',
+                'Jugo verde'
             ],
-            colacion1: 'Gelatina',
-            ingredientesColacion1: [
-                '1 taza de gelatina sin azúcar'
-            ],
-            comida: 'Enchiladas de Pechuga de pollo',
+            colacion1: '1 gelatina sin azúcar',
+            ingredientesColacion1: ['1 gelatina sin azúcar'],
+            comida: 'Tostadas mexicanas',
             ingredientesComida: [
-                '120 g de pollo deshebrado',
-                '3 tortillas de nopal',
-                '1/4 de taza de frijol machacado',
-                '1/2 aguacate',
-                '30gr de queso panela molido',
-                'Ensalada verde (lechuga, tomate, pepino)'
+                '2 tostadas horneadas',
+                '½ taza de frijol molido',
+                'Lechuga',
+                '1/3 pieza de aguacate',
+                '30 gramos de queso fresco',
+                '60 gramos de carne desmenuzada'
             ],
-            colacion2: '1 taza de piña picada',
-            cena: 'Tuna Lettuce Tacos',
+            colacion2: '½ taza de jícama con Tajín bajo en sodio',
+            cena: 'Wrap de jamón',
             ingredientesCena: [
-                '1 lata de atún',
-                '2/3 tz de elote en grano',
-                '1/4 de aguacate',
-                'Cilantro, cebolla, jitomate, pepino, limón',
-                'Hojas de lechuga orejona'
+                '1 pieza de pan pita',
+                '2 rebanadas de jamón de pavo',
+                '1 taza de lechuga',
+                '1/2 pieza de tomate',
+                '1/3 pieza de aguacate'
             ]
         }
     },
@@ -205,7 +200,7 @@ const dieta = [
             colacion1: 'Libre',
             comida: 'Repetir cualquier comida de la semana',
             colacion2: 'Libre',
-            cena: 'Libre'
+            cena: 'Tu novio <3 (Libre)'
         }
     }
 ];
@@ -215,7 +210,7 @@ function mostrarDia(diaIndex) {
 
     // Rellena la sección del desayuno
     if (Array.isArray(diaSeleccionado.comidas.ingredientesDesayuno)) {
-        let desayunoContenido = `<p class = "tituloPlatillo">${diaSeleccionado.comidas.desayuno}</p><ul class = "lista">`;
+        let desayunoContenido = `<p class = "tituloPlatillo">&#10048; &nbsp;${diaSeleccionado.comidas.desayuno}&nbsp;&#10048;</p><ul class = "lista">`;
         diaSeleccionado.comidas.ingredientesDesayuno.forEach(ingrediente => {
             desayunoContenido += `<li>${ingrediente}</li>`;
         });
@@ -230,7 +225,7 @@ function mostrarDia(diaIndex) {
 
     // Rellena la comida
     if (Array.isArray(diaSeleccionado.comidas.ingredientesComida)) {
-        let comidaContenido = `<p class = "tituloPlatillo">${diaSeleccionado.comidas.comida}</p><ul class = "lista" >`;
+        let comidaContenido = `<p class = "tituloPlatillo">&#10048; &nbsp;${diaSeleccionado.comidas.comida}&nbsp;&#10048;</p><ul class = "lista" >`;
         diaSeleccionado.comidas.ingredientesComida.forEach(ingrediente => {
             comidaContenido += `<li>${ingrediente}</li>`;
         });
@@ -245,7 +240,7 @@ function mostrarDia(diaIndex) {
 
     // Cena
     if (Array.isArray(diaSeleccionado.comidas.ingredientesCena)) {
-        let cenaContenido = `<p class = "tituloPlatillo">${diaSeleccionado.comidas.cena}</p><ul class = "lista" >`;
+        let cenaContenido = `<p class = "tituloPlatillo">&#10048; &nbsp;${diaSeleccionado.comidas.cena}&nbsp;&#10048;</p><ul class = "lista" >`;
         diaSeleccionado.comidas.ingredientesCena.forEach(ingrediente => {
             cenaContenido += `<li>${ingrediente}</li>`;
         });
