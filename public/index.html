@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieta Marianita</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="cont-Tittle">
+            <h1>&#127800; Dieta Marianita &#127800;</h1>
+            <a class="cambioDietaPendientes" href="pendientes.html">Pendientes</a>
+        </div>
+        <nav>
+            <div class="menu-dias">
+                <!-- Menú normal para pantallas grandes -->
+                <ul id="menu-dias-ul">
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(0)">Lunes</a></li>
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(1)">Martes</a></li>
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(2)">Miércoles</a></li>
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(3)">Jueves</a></li>
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(4)">Viernes</a></li>
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(5)">Sábado</a></li>
+                    <li><a class="option-menu" href="#" onclick="mostrarDia(6)">Domingo</a></li>
+                </ul>
+            
+                <!-- Menú desplegable para pantallas pequeñas -->
+                <select id="menu-dias-select" onchange="mostrarDiaSelect(this)">
+                    <option value="0">Lunes</option>
+                    <option value="1">Martes</option>
+                    <option value="2">Miércoles</option>
+                    <option value="3">Jueves</option>
+                    <option value="4">Viernes</option>
+                    <option value="5">Sábado</option>
+                    <option value="6">Domingo</option>
+                </select>
+            </div>
+            
+        </nav>
+    </header>
+    
+    <main>
+        <section id="dieta-del-dia">
+            <section id="desayuno">
+                <p class="titulosHora">Desayuno</i></p>
+                <div id="desayuno-contenido"></div>
+            </section>
+            <section id="colacion1">
+                <p class="titulosHora">Colación</p>
+                <div id="colacion1-contenido"></div>
+            </section>
+            <section id="comida">
+                <p class="titulosHora">Almuerzo</p>
+                <div id="comida-contenido"></div>
+            </section>
+            <section id="colacion2">
+                <p class="titulosHora">Colación</p>
+                <div id="colacion2-contenido"></div>
+            </section>
+            <section id="cena">
+                <p class="titulosHora">Cena</p>
+                <div id="cena-contenido"></div>
+            </section>
+        </section>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+[build]
+  publish = "carpeta-de-tu-proyecto" # Cambia esto por la carpeta que contiene tu index.html
+  command = "npm run build" # Este comando es para aplicaciones que usan npm, puede dejarse vacío si no aplica.
