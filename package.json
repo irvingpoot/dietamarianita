@@ -1,13 +1,14 @@
 {
   "name": "dietamarianita",
   "version": "1.0.0",
-  "description": "",
+  "description": "Seguimiento de la dieta de Marianita",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Irving Poot",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"
