@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const newTaskInput = document.getElementById('new-task');
 
     // Cargar tareas al cargar la página
-    fetch('/.netlify/functions/tasks') // Cambiar a la ruta de Netlify Functions
+    fetch('/tasks')
         .then(response => response.json())
         .then(tasks => {
             tasks.forEach(task => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         const newTask = newTaskInput.value.trim();
         if (newTask) {
-            fetch('/.netlify/functions/tasks', { // Cambiar a la ruta de Netlify Functions
+            fetch('/tasks', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         // Marcar como completada y eliminar la tarea
         li.querySelector('.complete-btn').addEventListener('click', () => {
-            fetch('/.netlify/functions/tasks', { // Cambiar a la ruta de Netlify Functions
+            fetch('/tasks', {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
@@ -52,5 +52,5 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+    
 });
-
