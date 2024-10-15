@@ -11,6 +11,9 @@
   "author": "Irving Poot",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "netlify-cli": "17.37.0",
+    "netlify-lambda": "2.0.15",
+    "serverless-http": "3.2.0"
   }
 }
